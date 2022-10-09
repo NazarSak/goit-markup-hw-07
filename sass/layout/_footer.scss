@@ -1,0 +1,103 @@
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    }
+
+    
+.last:not(:last-child){
+    margin-bottom: 9px;
+  }
+  
+  .footer-maps{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+    color:var(--background-ligt-color);
+    text-decoration: none;
+    transition:color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1)
+    }
+
+    .footer-inf{
+
+        font-size: 14px;
+        line-height:1.7;
+        
+        transition:color 250ms
+        cubic-bezier(0.4, 0, 0.2, 1);
+        
+        text-decoration: none;
+        color:var(--last-light-color);
+        }
+
+        .footer-link:hover,
+        .footer-link:focus{
+        color:var(--secondary-text-color);
+}
+
+.footer-div{
+    margin-left:76px ;
+    }
+
+    .footer-invite{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        color: var(--white-text-color);
+        margin-bottom: 20px;
+        }
+
+        .footer-sec-list{
+            display: flex;
+            gap: 10px;
+        }
+
+            .footer-li{
+                width: 44pxx; 
+        }
+
+        .footer-icon{
+            width: 44px;
+            height: 44px;
+            border-radius:50%;  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            fill: var(--white-text-color);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+            .footer-icon:hover,
+            .footer-icon:focus{
+           background-color:var(--secondary-text-color) ;
+           }
+
+           .footer-other-icons{
+            background: rgba(255, 255, 255, 0.1);
+            }
+
+            .con-teleg{
+                margin-left: auto;
+                }
+
+                .footer-invite{
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    color: var(--white-text-color);
+                    margin-bottom: 20px;
+                    }
+
+                    .footer-modal-teleg{
+                        display: flex;
+                      }
+
+                      .footer-svg-special{
+                        margin-left: 10px;
+                        }
+                        
