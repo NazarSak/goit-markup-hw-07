@@ -11,8 +11,22 @@
     color: var(--first-text-color);
     }
     
+    .list-container{
+      display: flex;
+      gap: 30px;
+      flex-direction: row
+      }
+
+
     .general-work-photo{
         position: relative;
+      }
+
+
+      .exercise-one-div{
+        margin: 0;
+        height: auto;
+        max-width: 100%;
       }
 
       .exercise-one-h3{
@@ -29,3 +43,9 @@
         background: rgba(47, 48, 58, 0.8);
         width: 100%;
         }
+
+        
+        
+.photo-section .hero-section{
+  color: var(--background-general-color);
+  }

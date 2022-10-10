@@ -64,6 +64,18 @@ ul{
           flex-direction: row
           }
 
+          .logo{
+            font-family: 'Raleway', sans-serif;
+           font-weight: 700;
+           font-size: 26px;
+           line-height:1.2;
+           letter-spacing: 0.03em;
+           color:var(--only-black-color);
+           text-decoration: none;
+           margin-right: 90px;
+           display: block;
+           }
+
           .logo-one{
             font-family: 'Raleway', sans-serif;
           font-weight: 700;
@@ -92,3 +104,23 @@ ul{
               padding: 40px;
               }
               
+              .svg-header{
+                margin-right: 10px;
+                }
+                
+                .svg-header:focus{
+                fill: #188CE8;
+                }
+
+                .icons{
+                  margin-left: 32px;
+                }
+
+                svg{
+                  transition: all 250ms;
+                  }
+                  
+                  
+.svg-inf{
+  color: #000000;
+  }
